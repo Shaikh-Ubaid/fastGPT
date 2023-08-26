@@ -45,6 +45,7 @@ from tqdm import tqdm
 
 def download_gpt2_files(model_size, model_dir):
     assert model_size in ["124M", "355M", "774M", "1558M"]
+    return
     for filename in [
         "checkpoint",
         "encoder.json",
